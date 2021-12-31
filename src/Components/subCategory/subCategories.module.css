@@ -1,0 +1,64 @@
+.subs{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.pSub{
+    padding-left: 15px;
+}
+.subCategory {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    padding-left: 25px;
+}
+
+.subCategoriesWithBorder{
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+
+}
+.warn{
+    border: 2px solid #C10016;
+}
+.subCategories {
+    /*margin: 0 15px 0 0;*/
+    padding: 0 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.subCategoriesBorder {
+    border-radius: 25px;
+    height: 4px;
+    background: transparent;
+    margin: 4px 0 -4px 0;
+}
+
+.activeSubCategoriesBorder {
+    background: #C10016;
+}
+
+.subBorder {
+    height: 4px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+   margin-left: 30px;
+}
+
+.subPlus {
+    width: 48px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: grey;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.input{
+     background: #E8EAEB;
+     border-radius: 25px;
+     border: none;
+     outline: none;
+     width: 379px;
+     height: 40px;
+     padding-left: 30px;
+}
+.input::placeholder{
+     color: #4c4c4c;
+     font-size: 18px;
+}
+.categoryInp{
+     width: 90%;
+     padding: 8px;
+     outline: none;
+     border: none;
+}
+.uploadPhotoBlock {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     border-radius: 5px;
+     background: #D3D3D3;
+
+}
+.uploadPhotoBlock span {
+     text-align: center;
+     font-weight: 500;
+     text-transform: capitalize;
+     color: #FFFFFF;
+}
+.uploadedPhotoBlock {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+}
+.fileInput{
+     opacity: 0;
+     position: relative;
+     pointer-events: none;
+     width: 1px;
+     height: 1px;
+     z-index: 999;
+}
+.inputLog , .inputReg{
+     width: 239px;
+     height: 32px;
+     background: #EBEBEB;
+     border-radius: 25px;
+     outline: none;
+     border: none;
+}
+.inputLog:disabled {
+     opacity: 0.4;
+}
+input{
+     padding: 10px;
+}

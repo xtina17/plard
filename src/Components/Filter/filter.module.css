@@ -1,0 +1,131 @@
+.filterBoxBody , .filterBox {
+    position: absolute;
+    width: 30px;
+}
+
+.arrow{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #C10016;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow svg{
+    width: 30px;
+    height: 30px;
+}
+.rangeSlider{
+    display: flex;
+    justify-content: center;
+}
+.filterBody{
+    width: 300px;
+    height: 100vh;
+    z-index: 10;
+    background: #FFFFFF;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.filterBodyB{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(46, 46, 46, 0.63);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.forFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.filP{
+    width: 15px;
+    height: 108px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 17px;
+}
+.iconDivs{
+    display: flex;
+    flex-direction: row;
+}
+.iconBack{
+    width: 15px;
+    height: 108px;
+}
+.iconBack svg{
+    color: #fff;
+    width: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.filIcon svg{
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.filIcon2 svg{
+    width: 300px;
+    height: 30px;
+
+}
+.filDiv{
+    width: 50px;
+    height: 280px;
+    background: #C10016;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    right: 40px;
+}
+.filVal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.filValItm{
+    width: 55px;
+    height: 25px;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.filBtn{
+    width: 110px;
+    height: 30px;
+    background: #C10016;
+    border: 1px solid  #C10016;
+    border-radius: 10px;
+    outline: 0;
+    color: #FFFFFF;
+    margin-top: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnbtn{
+    display: flex;
+    justify-content: center;
+}

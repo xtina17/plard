@@ -1,0 +1,18 @@
+.input{
+    width: 100%;
+    height: 100%;
+    background: #E8EAEB;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+
+}
+.text{
+    color: #000000;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,16 @@
+.main{
+    width: 100%;
+    background-image:url("../Images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.mainBg{
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.46);
+}
+.margin{
+    width: 95%;
+    margin-left: 3%;
+}

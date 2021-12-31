@@ -1,0 +1,248 @@
+
+.weightBg {
+    width: 100%;
+    height: 100vh;
+    background-image:url("../Images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 3;
+}
+.weightBgTwo{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.46);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.dollarBg {
+     width: 100%;
+     height: 100vh;
+     background-image: url("../Images/bg.png");
+     background-size: cover;
+     background-attachment: fixed;
+     z-index: 3;
+ }
+
+.dollarBgTwo {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.46);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.one, .two{
+    height: 340px;
+    margin: 15px;
+}
+.one{
+    display: flex;
+    width: 990px;
+}
+.two{
+    width: 1000px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.boxOne , .boxTwo , .boxThree{
+    width: 320px;
+    height: 339px;
+    left: 168px;
+    top: 174px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+.boxTwo , .boxThree{
+    margin-left: 25px;
+}
+/*  */
+.colOne {
+    width: 100%;
+    height: 40px;
+    border-bottom:1px solid #C7C7C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.colOneSpan {*/
+/*    padding-left: 130px;*/
+/*!*}*!*/
+/*.span2{*/
+/*    padding-left: 130px;*/
+/*}*/
+.spanDiv{
+    display: flex;
+    justify-content: center;
+}
+.colTwo{
+    width: 100%;
+    height: calc(100% - 95px);
+}
+.colThree{
+    width: 100px;
+    height: 55px;
+}
+.button{
+    width: 270px;
+    height: 32px;
+    background: #C10016;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.button2{
+    width: 270px;
+    height: 32px;
+    background: #C10016;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-left: 30px;
+}
+/**/
+.gend{
+    display: flex;
+    flex-direction: row;
+}
+.gend > div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-left:1px solid #C7C7C7;
+}
+.gend > div > p{
+    padding:5px 10px 0 10px;
+}
+.colTwo{
+    display: flex;
+}
+.colTwo > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.colTwoBord{
+    border-right:1px solid #C7C7C7;
+    display: flex;
+    flex-direction: column;
+}
+.divs{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.colTwoBordTwo{
+    display: flex;
+    flex-direction: column;
+}
+.divs > img{
+    width: 30px;
+    height: 30px;
+}
+.divs span {
+    color: #C10016;
+}
+.numb{
+    position: relative;
+    top: 95px;
+    right: 280px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.numb2{
+    position: relative;
+    top: 95px;
+    right: 255px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.span22{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+    padding-left: 180px;
+}
+.span22a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+    padding-left: 20px;
+}
+.pie{
+    position: relative;
+    right: 120px;
+    top: 10px;
+}
+
+.bx{
+    margin-top: 70px;
+    width: 140px;
+    height: 100px;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.s{
+    /*font-family: Montserrat;*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #C10016;
+
+}
+.rowOne{
+    width: 100%;
+    height: 50px;
+}
+.rowTwo{
+    width: 100%;
+    height:  calc(100% - 90px);
+    display: flex;
+    flex-direction: row;
+}
+.partOne{
+    width: 50px;
+    height: 100%;
+}
+.partTwo{
+    width: calc(100% - 150px);
+    height: 100%;
+}
+.partThree{
+    width: 100px;
+    height: 100%;
+}
+.rowThree{
+    width: 100%;
+    height: 40px;
+}
+.input{
+    border: none;
+    outline: none;
+    height: 35px;
+    border-bottom: 1px solid #4c4c4c;
+    margin: 10px;
+}

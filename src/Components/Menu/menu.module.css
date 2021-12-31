@@ -1,0 +1,156 @@
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.active{
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid #939393;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.genderIcon:hover{
+    background-color: rgba(211, 211, 211, 0.79);
+}
+.genderIcon{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+.genderIcon img{
+    width: 18px;
+    height: 18px;
+}
+/*cat*/
+.category {
+    display: flex;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.categories:hover{
+    background-color: rgba(196, 196, 196, 0.79);
+}
+.categories{
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 35px;
+}
+.categories img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+.add{
+    width: 50px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.activeImg{
+    box-shadow: 0px 0px 10px rgba(255, 6, 6, 0.25);
+}
+.text{
+    width: 40px;
+    margin-top: 3px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: max-content;
+}
+.text p {
+    margin-top: 7px;
+}
+.textTwo{
+    font-family: Montserrat;
+}
+.catImg{
+    position: relative;
+    top: 10px;
+    width: 43px;
+    height: 41px;
+    z-index: 0;
+}
+/*modal*/
+.modalContent{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #2E2E2E;
+}
+.genderModal{
+    width: 125px;
+    height: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.genderIconModal{
+    display: flex;
+    flex-direction: row;
+}
+.modalInfos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalP{
+    position: absolute;
+    width: 60px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+    padding-left: 35px;
+}
+.inputDiv{
+    border-bottom: 1px solid #C1C1C1;
+    width: 90%;
+    margin-top: 5px;
+}
+.buttonModal{
+    width: 259px;
+    height: 32px;
+    background: #C10016;
+    border-radius: 25px;
+    color: #FFFFFF;
+    border: none;
+}

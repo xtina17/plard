@@ -1,0 +1,80 @@
+.div{
+    display: flex;
+}
+.one , .two{
+    width: 275px;
+    height: 100%;
+
+}
+.one{
+    background-image: url("../Images/image 4.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.one > span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.one > p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #E7E7E7;
+}
+.button{
+    width: 270px;
+    height: 32px;
+    background: #C10016;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:1px solid  #C10016;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.del{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #C10016;
+    padding-top: 70px;
+}
+.x > svg{
+    position: relative;
+    bottom: 32px;
+    left: 140px;
+    font-size: 22px;
+    color: #C10016;
+}
+.x{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
